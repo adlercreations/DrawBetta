@@ -1,0 +1,46 @@
+# --- Common Sections (Root-level and macOS) ---
+# macOS-specific files
+.DS_Store
+
+# Logs
+*.log
+
+# Ignore environment files with sensitive information
+.env
+
+# --- Python/Flask Backend (server) ---
+# Virtual environments
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Local database
+*.sqlite3
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# --- React Native Frontend (client) ---
+# Node modules
+node_modules/
+
+# iOS/Android builds
+android/
+ios/
+
+# NPM / Yarn debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+*.apk
+*.aab
+*.app
+*.ipa
+
+# Bundle
+.bundle
